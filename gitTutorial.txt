@@ -1,0 +1,55 @@
+start with  git init  . this will create files that keep track.
+
+ 
+
+git config - use to store your details
+
+-- git config --global user.name "john tekdek"
+
+-- git config --global user.email "john@gmail.com"
+
+ 
+
+ 
+
+git status-- tells u the statusof the repo and asks if u want to commit it
+
+git add --- stages the file for commit . any changes made to the file after git add will not be committed
+
+ 
+
+git rm <file> to remove a file
+
+git commit -m
+
+ 
+
+ 
+
+git log -- view log of all commits  ( Press Q to quit)
+
+git show <hash> -- if u dont provide hash, it will show the latest, use the hash to get details
+
+ 
+
+ 
+
+git diff shows the info on what you have not yet done a git add on.
+
+git diff --staged show the info that you have staged but not yet commited.
+
+ 
+
+git reset HEAD <filename> get rid of the changes that you have added but not commited
+
+ 
+
+git checkout <hash>-- allows you to view your project as it was at a particular commit
+
+git checkout master --- takes you back to the most recent/latest position
+
+ 
+
+git remote add <name> <url> --- the 'name is a nick name, you can have many remotes i.e git lab ,github etc
+git push -u origin master
+
