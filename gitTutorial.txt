@@ -53,3 +53,14 @@ git checkout master --- takes you back to the most recent/latest position
 git remote add <name> <url> --- the 'name is a nick name, you can have many remotes i.e git lab ,github etc
 git push -u origin master
 
+git remote -v --- lists all the remotes that the repo knows about
+
+git push  -- sends commits from your repo to another repo
+
+git push -u origin master --- this sets the origin remote as the defaults remote  -u is for upstream * do this once! subsequently, just run git push
+
+git pull -- gets commits from anotehr repo to yur repo and updates ur files with those changes. can specify a remote or it will use default
+git pull performs two operations:
+git fetch and git merge    fetch just brings down and merge will update
+
+git clone <url> --- this makes a copyof a repo . the local copy is a full ,complete repo with all commits and history. the local copy has a remote named origin
