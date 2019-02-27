@@ -46,6 +46,12 @@ git reset HEAD <filename> get rid of the changes that you have added but not com
 
 git checkout <hash>-- allows you to view your project as it was at a particular commit
 
+
+To Deal with Existing / Other Peoples work:
+- Fork the Repo so that you have control over your fork,
+- Make commits in your fork to change to what you want
+- Contact the owner of the upstream repo,show ur changes, ask the owner to pull your changes into the upstream repo. thsi sis a pull request
+
 git checkout master --- takes you back to the most recent/latest position
 
  
@@ -63,4 +69,4 @@ git pull -- gets commits from anotehr repo to yur repo and updates ur files with
 git pull performs two operations:
 git fetch and git merge    fetch just brings down and merge will update
 
-git clone <url> --- this makes a copyof a repo . the local copy is a full ,complete repo with all commits and history. the local copy has a remote named origin
+git clone <url> --- this makes a copy of a repo . the local copy is a full ,complete repo with all commits and history. the local copy has a remote named origin
