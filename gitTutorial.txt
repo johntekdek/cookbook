@@ -73,3 +73,12 @@ To Deal with Existing / Other Peoples work:
 - Fork/clone the Repo so that you have control over your fork,
 - Make commits in your fork/clone to change to what you want
 - Contact the owner of the upstream repo,show ur changes, ask the owner to pull your changes into the upstream repo. thsi sis a pull request
+
+Merging Pull Request
+- can be done with a button in github
+Manual Merge
+- Add requester's fork as a remote
+- git fetch <remote>
+- git merge <remote>/master
+- git push
+Git Hub will do the rest
