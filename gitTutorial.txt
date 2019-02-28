@@ -82,3 +82,7 @@ Manual Merge
 - git merge <remote>/master
 - git push
 Git Hub will do the rest
+
+BRANCHES
+
+
