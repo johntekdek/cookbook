@@ -63,7 +63,7 @@ git push -u origin master --- this sets the origin remote as the defaults remote
 
 git pull -- gets commits from anotehr repo to yur repo and updates ur files with those changes. can specify a remote or it will use default
 git pull performs two operations:
-git fetch and git merge    fetch just brings down and merge will update
+git fetch and git merge  fetch just brings down and merge will update
 
 git clone <url> --- this makes a copy of a repo . the local copy is a full ,complete repo with all commits and history. the local copy has a remote named origin
 
@@ -84,5 +84,15 @@ Manual Merge
 Git Hub will do the rest
 
 BRANCHES
+this is a labeled commit and all its parents
+
+git branch --- shows which branches exist in the repo, and which one your currently attached
+git branch <branchname> creates a new branch pointing to the commit your sitting on
+git branch -d <branchname> deletes an existing branch from your local repo but not from remotes
+git log --graph   this will show a graph of all branches and commits
+git checkout -b <branchname> creates a new branch and immediately switches over to it
+
+*Each Branch Has its Own upstream setting:the remote that the branch normally pulls from and pushes to,and the branch in that remote that it uses for those operations
+
 
 
